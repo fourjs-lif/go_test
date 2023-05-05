@@ -1,0 +1,31 @@
+{
+    "datasource": "hellodb",
+    "fields": [
+        {
+            "aggregates": [
+            ],
+            "name": "accounts.userid",
+            "type": 0
+        },
+        {
+            "aggregates": [
+            ],
+            "name": "accounts.firstname",
+            "type": 0
+        },
+        {
+            "aggregates": [
+            ],
+            "name": "accounts.lastname",
+            "type": 0
+        }
+    ],
+    "id": {
+        "name": "hellods",
+        "type": 0
+    },
+    "masterTable": {
+        "alias": null,
+        "name": "accounts"
+    }
+}

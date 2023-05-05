@@ -1,0 +1,48 @@
+{
+    "columns": [
+        {
+            "fglLength": 4,
+            "fglType": 2,
+            "label": "orderid",
+            "name": "orderid",
+            "notNull": true
+        },
+        {
+            "fglLength": 4,
+            "fglType": 2,
+            "label": "userid",
+            "name": "userid",
+            "notNull": true
+        },
+        {
+            "fglLength": 80,
+            "fglType": 0,
+            "label": "description",
+            "name": "description",
+            "notNull": false
+        }
+    ],
+    "constraints": [
+        {
+            "columns": [
+                "orderid"
+            ],
+            "name": "primary_key_orders",
+            "type": 0,
+            "user": false
+        },
+        {
+            "columns": [
+                {
+                    "name": "userid",
+                    "referenceColumn": "userid"
+                }
+            ],
+            "name": "fk_orders_accounts_1",
+            "referenceTable": "accounts",
+            "type": 1,
+            "user": false
+        }
+    ],
+    "name": "orders"
+}

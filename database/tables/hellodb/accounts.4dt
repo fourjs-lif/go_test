@@ -1,0 +1,36 @@
+{
+    "columns": [
+        {
+            "fglLength": 4,
+            "fglType": 2,
+            "label": "userid",
+            "name": "userid",
+            "notNull": true
+        },
+        {
+            "fglLength": 80,
+            "fglType": 0,
+            "label": "firstname",
+            "name": "firstname",
+            "notNull": true
+        },
+        {
+            "fglLength": 80,
+            "fglType": 0,
+            "label": "lastname",
+            "name": "lastname",
+            "notNull": true
+        }
+    ],
+    "constraints": [
+        {
+            "columns": [
+                "userid"
+            ],
+            "name": "primary_key_accounts",
+            "type": 0,
+            "user": false
+        }
+    ],
+    "name": "accounts"
+}

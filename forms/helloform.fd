@@ -1,0 +1,38 @@
+{
+    "dataModelId": {
+        "name": "hellodm",
+        "type": 0
+    },
+    "formId": {
+        "name": "helloform"
+    },
+    "rootElement": {
+        "direction": 2,
+        "elements": [
+            {
+                "columns": 1,
+                "container": 1,
+                "dataSetRef": {
+                    "name": "hellods",
+                    "refId": 0
+                },
+                "fields": [
+                    {
+                        "name": "accounts.userid",
+                        "widget": 0
+                    },
+                    {
+                        "name": "accounts.firstname",
+                        "widget": 0
+                    },
+                    {
+                        "name": "accounts.lastname",
+                        "widget": 0
+                    }
+                ],
+                "type": 2
+            }
+        ],
+        "type": 1
+    }
+}

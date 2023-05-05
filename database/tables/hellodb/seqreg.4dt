@@ -1,0 +1,29 @@
+{
+    "columns": [
+        {
+            "fglLength": 30,
+            "fglType": 201,
+            "label": "sr_name",
+            "name": "sr_name",
+            "notNull": true
+        },
+        {
+            "fglLength": 4,
+            "fglType": 2,
+            "label": "sr_last",
+            "name": "sr_last",
+            "notNull": true
+        }
+    ],
+    "constraints": [
+        {
+            "columns": [
+                "sr_name"
+            ],
+            "name": "sqlite_autoindex_seqreg_1",
+            "type": 0,
+            "user": false
+        }
+    ],
+    "name": "seqreg"
+}

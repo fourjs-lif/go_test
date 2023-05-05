@@ -1,0 +1,27 @@
+SCHEMA hellodb
+
+LAYOUT
+TABLE
+{
+[uid     |firstname    |lastname     ]
+[uid     |firstname    |lastname     ]
+[uid     |firstname    |lastname     ]
+[uid     |firstname    |lastname     ]
+[uid     |firstname    |lastname     ]
+}
+END
+END
+
+TABLES
+    accounts
+END
+
+ATTRIBUTES
+    uid = accounts.userid, TITLE="User ID";
+    firstname = accounts.firstname, TITLE="Firstname";
+    lastname = accounts.lastname, TITLE="Lastname";
+END
+
+INSTRUCTIONS
+    SCREEN RECORD s_accounts(accounts.*)
+END

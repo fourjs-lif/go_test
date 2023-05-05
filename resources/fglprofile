@@ -1,0 +1,2 @@
+dbi.database.hellodb.source="hellodb.db"
+dbi.database.hellodb.driver="dbmsqt"
